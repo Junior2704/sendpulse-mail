@@ -9,8 +9,8 @@ import fetch from "node-fetch";
 import cors from "cors";
 
 // === 🔧 Configuration à personnaliser ===
-const CLIENT_ID = "2791ee5cd2fe86363b423d1ca0da4c8e";
-const CLIENT_SECRET = "c154f218aa3d57f0de5f4ffc72ee7fb9";
+const CLIENT_ID = process.env.CLIENT_ID;
+const CLIENT_SECRET = process.env.CLIENT_SECRET;
 const SENDER_EMAIL = "no-reply@urgences.fr";
 const SENDER_NAME = "Service des Urgences";
 
