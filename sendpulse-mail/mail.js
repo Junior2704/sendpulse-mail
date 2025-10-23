@@ -9,10 +9,10 @@ import fetch from "node-fetch";
 import cors from "cors";
 
 // === 🔧 Configuration à personnaliser ===
-const CLIENT_ID = "TON_CLIENT_ID_SENDPULSE";
-const CLIENT_SECRET = "TON_CLIENT_SECRET_SENDPULSE";
-const SENDER_EMAIL = "no-reply@tonhopital.fr";
-const SENDER_NAME = "Centre Hospitalier";
+const CLIENT_ID = "2791ee5cd2fe86363b423d1ca0da4c8e";
+const CLIENT_SECRET = "c154f218aa3d57f0de5f4ffc72ee7fb9";
+const SENDER_EMAIL = "no-reply@urgences.fr";
+const SENDER_NAME = "Service des Urgences";
 
 const app = express();
 app.use(cors());
